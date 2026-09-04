@@ -8,31 +8,87 @@
    1. CSS Custom Properties & Design Tokens
    -------------------------------------------------------------------------- */
 :root {
-  /* Primary Brand Colors (Root Chakra & Passion) */
-  --color-primary: #9E3B2B;         /* Terracotta / Crimson Rust */
-  --color-primary-dark: #7A2B1E;    /* Deep Rust for hover/focus states */
-  --color-primary-light: #F8EBE8;   /* Light Terracotta tint for badges/accents */
-  --color-primary-tint: rgba(158, 59, 43, 0.08);
+  /* ========================================================================
+     1. Primary Dominant Color 1: Rose Pink Palette
+     Warm, empathetic, transformative, grounded dusty rose & rosewood hues
+     ======================================================================== */
+  --color-rose-50: #FDF7F8;         /* Whisper blush wash for subtle backgrounds */
+  --color-rose-100: #FAECED;        /* Delicate rose tint for badges and chips */
+  --color-rose-200: #F5D2D6;        /* Soft petal rose for subtle borders and accents */
+  --color-rose-300: #E8A8B2;        /* Muted blush rose */
+  --color-rose-400: #D27282;        /* Radiant rose accent */
+  --color-rose-500: #A6384C;        /* Core brand rose - deep, empathetic, WCAG AA 6.4:1 contrast */
+  --color-rose-600: #932E41;        /* Deep rosewood for interactive hover states (7.8:1 contrast) */
+  --color-rose-700: #7B2334;        /* Rich burgundy rose for active states */
+  --color-rose-800: #5D1826;        /* Deep wine rose */
+  --color-rose-900: #3E0E18;        /* Midnight rosewood */
 
-  /* Secondary Brand Colors (Plants & Growth) */
-  --color-secondary: #4A6B5D;       /* Sage / Botanical Green */
-  --color-secondary-dark: #354D43;  /* Dark Olive Sage */
-  --color-secondary-light: #EBF0EC;  /* Light Sage wash for backgrounds */
-  --color-secondary-tint: rgba(74, 107, 93, 0.08);
+  --color-rose-tint: rgba(166, 56, 76, 0.08);
+  --color-rose-glow: rgba(166, 56, 76, 0.16);
+  --color-rose-shadow: rgba(166, 56, 76, 0.26);
+  --color-rose-shadow-hover: rgba(166, 56, 76, 0.36);
 
-  /* Neutrals & Surfaces */
-  --color-bg-main: #FDFBF7;         /* Warm Sand Off-White */
-  --color-bg-card: #FFFFFF;         /* Pure White for elevated cards */
-  --color-bg-warm: #F8F5EE;         /* Secondary warm section background */
-  --color-text-main: #2C2A29;       /* Charcoal (Soft Black for high contrast) */
-  --color-text-muted: #5C5856;      /* Muted Warm Grey */
-  --color-border: #E5DFC0;          /* Subtle Warm Sand Border */
-  --color-border-light: rgba(229, 223, 192, 0.5);
+  /* ========================================================================
+     2. Primary Dominant Color 2: Gold Palette
+     Luminous, restorative, prestigious antique gold & champagne hues
+     ======================================================================== */
+  --color-gold-50: #FDFCF7;         /* Pale champagne glow surface */
+  --color-gold-100: #FAF2DF;        /* Soft champagne wash for badges/highlights */
+  --color-gold-200: #F1E0BC;        /* Subtle champagne gold border */
+  --color-gold-300: #E2C485;        /* Luminous satin gold accent */
+  --color-gold-400: #CCA048;        /* Radiant warm gold */
+  --color-gold-500: #A8761E;        /* Core antique gold - prestigious, WCAG AA contrast */
+  --color-gold-600: #926315;        /* Burnished gold for buttons and hover states */
+  --color-gold-700: #754E0E;        /* Deep amber gold for ultra-clear text readability (6.7:1) */
+  --color-gold-800: #573A08;        /* Dark bronze gold */
+  --color-gold-900: #3A2604;        /* Espresso bronze */
 
-  /* Functional Colors */
+  --color-gold-tint: rgba(168, 118, 30, 0.08);
+  --color-gold-glow: rgba(168, 118, 30, 0.16);
+  --color-gold-shadow: rgba(168, 118, 30, 0.24);
+  --color-gold-shadow-hover: rgba(168, 118, 30, 0.34);
+
+  /* ========================================================================
+     3. Primary & Secondary Brand Mapping
+     Maps primary brand roles to Rose Pink and Gold
+     ======================================================================== */
+  --color-primary: var(--color-rose-500);
+  --color-primary-dark: var(--color-rose-600);
+  --color-primary-light: var(--color-rose-100);
+  --color-primary-tint: var(--color-rose-tint);
+
+  --color-secondary: var(--color-gold-500);
+  --color-secondary-dark: var(--color-gold-700);
+  --color-secondary-light: var(--color-gold-100);
+  --color-secondary-tint: var(--color-gold-tint);
+
+  /* Legacy alias for gold */
+  --color-gold: var(--color-gold-500);
+
+  /* ========================================================================
+     4. Complementary & Harmonizing Colors
+     Warm neutrals, botanical sage accent, and functional tokens
+     ======================================================================== */
+  /* Surfaces & Neutrals */
+  --color-bg-main: #FDFBF9;         /* Luminous warm alabaster ivory */
+  --color-bg-card: #FFFFFF;         /* Pure crisp white for elevated cards */
+  --color-bg-warm: #F8F3EF;         /* Soothing linen cashmere for alternate sections */
+  --color-text-main: #2C2426;       /* Deep plum charcoal - 15.1:1 contrast on white */
+  --color-text-muted: #63575A;      /* Refined warm taupe - 6.9:1 contrast on white */
+  --color-border: #E8DDD7;          /* Soft warm rose-sand border */
+  --color-border-light: rgba(232, 221, 215, 0.6);
+  --color-border-gold: var(--color-gold-200);
+  --color-border-rose: var(--color-rose-200);
+
+  /* Complementary Botanical Sage (grounding, organic nature touch) */
+  --color-sage-100: #EDF3F0;
+  --color-sage-300: #A2BFB3;
+  --color-sage-500: #4E7064;
+  --color-sage-700: #334B42;
+
+  /* Functional Status Colors */
   --color-success: #2D6A4F;
   --color-success-light: #D8F3DC;
-  --color-gold: #C07D2B;
 
   /* Typography */
   --font-heading: 'Fraunces', 'Playfair Display', Georgia, serif;
@@ -48,11 +104,11 @@
   --space-3xl: 4.5rem;   /* 72px */
   --space-4xl: 6rem;     /* 96px */
 
-  /* Shadows */
-  --shadow-sm: 0 2px 6px rgba(44, 42, 41, 0.04);
-  --shadow-md: 0 6px 18px rgba(44, 42, 41, 0.06), 0 2px 4px rgba(44, 42, 41, 0.03);
-  --shadow-lg: 0 16px 36px rgba(44, 42, 41, 0.08), 0 4px 12px rgba(44, 42, 41, 0.04);
-  --shadow-hover: 0 20px 40px rgba(158, 59, 43, 0.12), 0 6px 16px rgba(44, 42, 41, 0.06);
+  /* Shadows with warm rose/taupe ambient tones */
+  --shadow-sm: 0 2px 6px rgba(44, 36, 38, 0.04);
+  --shadow-md: 0 6px 18px rgba(44, 36, 38, 0.06), 0 2px 4px rgba(44, 36, 38, 0.03);
+  --shadow-lg: 0 16px 36px rgba(44, 36, 38, 0.08), 0 4px 12px rgba(44, 36, 38, 0.04);
+  --shadow-hover: 0 20px 40px rgba(166, 56, 76, 0.14), 0 6px 16px rgba(168, 118, 30, 0.08);
 
   /* Transitions */
   --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -222,14 +278,17 @@ p:last-child {
   font-weight: 600;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  background-color: var(--color-primary-light);
-  color: var(--color-primary);
+  background-color: var(--color-rose-100);
+  color: var(--color-rose-500);
+  border: 1px solid var(--color-border-rose);
   margin-bottom: 1rem;
 }
 
+.section-badge.gold,
 .section-badge.sage {
-  background-color: var(--color-secondary-light);
-  color: var(--color-secondary-dark);
+  background-color: var(--color-gold-100);
+  color: var(--color-gold-700);
+  border: 1px solid var(--color-border-gold);
 }
 
 .section-title {
@@ -263,21 +322,20 @@ p:last-child {
 .btn-primary {
   background-color: var(--color-primary);
   color: #FFFFFF;
-  box-shadow: 0 4px 14px rgba(158, 59, 43, 0.28);
+  box-shadow: 0 4px 14px var(--color-rose-shadow);
 }
 
 .btn-primary:hover {
   background-color: var(--color-primary-dark);
   color: #FFFFFF;
   transform: translateY(-2px);
-  box-shadow: 0 8px 22px rgba(158, 59, 43, 0.38);
+  box-shadow: 0 8px 22px var(--color-rose-shadow-hover);
 }
 
 .btn-secondary {
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.85);
   color: var(--color-text-main);
   border: 1.5px solid var(--color-border);
-  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .btn-secondary:hover {
@@ -288,16 +346,19 @@ p:last-child {
   box-shadow: var(--shadow-sm);
 }
 
+.btn-gold,
 .btn-sage {
-  background-color: var(--color-secondary);
+  background-color: var(--color-gold-500);
   color: #FFFFFF;
-  box-shadow: 0 4px 14px rgba(74, 107, 93, 0.25);
+  box-shadow: 0 4px 14px var(--color-gold-shadow);
 }
 
+.btn-gold:hover,
 .btn-sage:hover {
-  background-color: var(--color-secondary-dark);
+  background-color: var(--color-gold-600);
+  color: #FFFFFF;
   transform: translateY(-2px);
-  box-shadow: 0 8px 22px rgba(74, 107, 93, 0.35);
+  box-shadow: 0 8px 22px var(--color-gold-shadow-hover);
 }
 
 .btn-icon {
@@ -320,7 +381,7 @@ p:last-child {
   width: 100%;
   height: var(--header-height);
   z-index: 1000;
-  background-color: rgba(253, 251, 247, 0.88);
+  background-color: rgba(253, 251, 249, 0.90);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--color-border-light);
@@ -328,8 +389,8 @@ p:last-child {
 }
 
 .site-header.scrolled {
-  background-color: rgba(253, 251, 247, 0.96);
-  box-shadow: 0 4px 20px rgba(44, 42, 41, 0.05);
+  background-color: rgba(253, 251, 249, 0.98);
+  box-shadow: 0 4px 20px rgba(44, 36, 38, 0.05);
 }
 
 .header-inner {
@@ -356,6 +417,7 @@ p:last-child {
   height: 38px;
   color: var(--color-primary);
   flex-shrink: 0;
+  filter: drop-shadow(0 2px 4px rgba(166, 56, 76, 0.15));
 }
 
 .brand-title-group {
@@ -373,10 +435,10 @@ p:last-child {
 .brand-tagline {
   font-family: var(--font-body);
   font-size: 0.725rem;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--color-primary);
+  color: var(--color-gold-700);
 }
 
 /* Navigation Links */
@@ -431,7 +493,7 @@ p:last-child {
 .lang-switcher {
   display: inline-flex;
   align-items: center;
-  background-color: rgba(229, 223, 192, 0.4);
+  background-color: rgba(232, 221, 215, 0.45);
   padding: 3px;
   border-radius: var(--radius-full);
   border: 1px solid var(--color-border);
@@ -449,7 +511,7 @@ p:last-child {
 .lang-btn.active {
   background-color: #FFFFFF;
   color: var(--color-primary);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 6px rgba(44, 36, 38, 0.08);
 }
 
 .lang-btn:hover:not(.active) {
@@ -500,8 +562,8 @@ p:last-child {
   padding-bottom: var(--space-4xl);
   position: relative;
   overflow: hidden;
-  background: radial-gradient(circle at 85% 15%, rgba(248, 235, 232, 0.7) 0%, rgba(253, 251, 247, 0) 55%),
-              radial-gradient(circle at 10% 80%, rgba(235, 240, 236, 0.6) 0%, rgba(253, 251, 247, 0) 50%);
+  background: radial-gradient(circle at 85% 15%, rgba(250, 236, 237, 0.75) 0%, rgba(253, 251, 249, 0) 55%),
+              radial-gradient(circle at 10% 80%, rgba(250, 242, 223, 0.7) 0%, rgba(253, 251, 249, 0) 50%);
 }
 
 .hero-grid {
@@ -527,7 +589,7 @@ p:last-child {
   font-weight: 600;
   letter-spacing: 0.02em;
   margin-bottom: 24px;
-  border: 1px solid rgba(158, 59, 43, 0.15);
+  border: 1px solid var(--color-border-rose);
 }
 
 .hero-badge-pulse {
@@ -571,7 +633,7 @@ p:last-child {
   left: 0;
   width: 100%;
   height: 8px;
-  background-color: rgba(158, 59, 43, 0.12);
+  background: linear-gradient(90deg, rgba(166, 56, 76, 0.16) 0%, rgba(168, 118, 30, 0.2) 100%);
   z-index: -1;
   border-radius: 4px;
 }
@@ -612,7 +674,7 @@ p:last-child {
 .trust-icon {
   width: 20px;
   height: 20px;
-  color: var(--color-secondary);
+  color: var(--color-gold-600);
   flex-shrink: 0;
 }
 
@@ -662,12 +724,13 @@ p:last-child {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: var(--color-primary-light);
-  color: var(--color-primary);
+  background: linear-gradient(135deg, var(--color-rose-100) 0%, var(--color-gold-100) 100%);
+  color: var(--color-rose-500);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  border: 1px solid var(--color-border-rose);
 }
 
 .floating-card-title {
@@ -726,8 +789,8 @@ p:last-child {
   background-color: #FFFFFF;
   padding: 16px 20px;
   border-radius: var(--radius-md);
-  box-shadow: var(--shadow-hover);
-  border: 1px solid var(--color-border);
+  box-shadow: 0 12px 30px rgba(168, 118, 30, 0.12), var(--shadow-hover);
+  border: 1px solid var(--color-border-gold);
   display: flex;
   align-items: center;
   gap: 14px;
@@ -737,7 +800,7 @@ p:last-child {
 .license-seal-icon {
   width: 42px;
   height: 42px;
-  color: var(--color-secondary);
+  color: var(--color-gold-600);
   flex-shrink: 0;
 }
 
@@ -750,7 +813,7 @@ p:last-child {
 
 .license-badge-sub {
   font-size: 0.75rem;
-  color: var(--color-secondary-dark);
+  color: var(--color-gold-700);
   font-weight: 600;
   margin-top: 2px;
 }
@@ -770,8 +833,8 @@ p:last-child {
   font-size: 1.25rem;
   font-style: italic;
   line-height: 1.5;
-  color: var(--color-primary);
-  border-left: 3px solid var(--color-primary);
+  color: var(--color-rose-500);
+  border-left: 3px solid var(--color-gold-500);
   padding-left: 18px;
   margin: 12px 0 20px 0;
 }
@@ -796,30 +859,39 @@ p:last-child {
   border-radius: var(--radius-md);
   border: 1px solid var(--color-border);
   box-shadow: var(--shadow-sm);
-  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal), border-color var(--transition-normal);
 }
 
 .value-card:hover {
   transform: translateY(-3px);
   box-shadow: var(--shadow-md);
-  border-color: var(--color-primary);
+  border-color: var(--color-rose-300);
 }
 
 .value-icon-box {
   width: 44px;
   height: 44px;
   border-radius: 12px;
-  background-color: var(--color-primary-light);
-  color: var(--color-primary);
+  background-color: var(--color-rose-100);
+  color: var(--color-rose-500);
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 14px;
+  border: 1px solid var(--color-border-rose);
 }
 
+.value-icon-box.gold,
 .value-icon-box.sage {
-  background-color: var(--color-secondary-light);
-  color: var(--color-secondary);
+  background-color: var(--color-gold-100);
+  color: var(--color-gold-600);
+  border-color: var(--color-border-gold);
+}
+
+.value-icon-box.botanical {
+  background-color: var(--color-sage-100);
+  color: var(--color-sage-500);
+  border-color: rgba(162, 191, 179, 0.4);
 }
 
 .value-card-title {
@@ -868,8 +940,18 @@ p:last-child {
 }
 
 .pathway-card.featured {
-  border-color: var(--color-primary);
-  background: linear-gradient(180deg, #FFFFFF 0%, rgba(248, 235, 232, 0.15) 100%);
+  border-color: var(--color-rose-300);
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(250, 236, 237, 0.25) 100%);
+}
+
+.pathway-card:not(.featured) {
+  border-color: var(--color-gold-200);
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(250, 242, 223, 0.25) 100%);
+}
+
+.pathway-card:not(.featured):hover {
+  border-color: var(--color-gold-400);
+  box-shadow: 0 20px 40px rgba(168, 118, 30, 0.12), 0 6px 16px rgba(44, 36, 38, 0.06);
 }
 
 .pathway-tag {
@@ -879,16 +961,18 @@ p:last-child {
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--color-primary);
-  background-color: var(--color-primary-light);
+  color: var(--color-rose-500);
+  background-color: var(--color-rose-100);
+  border: 1px solid var(--color-border-rose);
   padding: 4px 14px;
   border-radius: var(--radius-full);
   margin-bottom: 16px;
 }
 
 .pathway-tag.couples {
-  color: var(--color-secondary-dark);
-  background-color: var(--color-secondary-light);
+  color: var(--color-gold-700);
+  background-color: var(--color-gold-100);
+  border-color: var(--color-border-gold);
 }
 
 .pathway-title {
@@ -932,13 +1016,14 @@ p:last-child {
 .focus-item-icon {
   width: 18px;
   height: 18px;
-  color: var(--color-primary);
+  color: var(--color-rose-500);
   flex-shrink: 0;
   margin-top: 3px;
 }
 
+.focus-item-icon.gold,
 .focus-item-icon.sage {
-  color: var(--color-secondary);
+  color: var(--color-gold-600);
 }
 
 .pathway-card-footer {
@@ -982,7 +1067,7 @@ p:last-child {
 
 .modality-pill-card:hover {
   background-color: #FFFFFF;
-  border-color: var(--color-primary);
+  border-color: var(--color-rose-300);
   box-shadow: var(--shadow-sm);
 }
 
@@ -1000,12 +1085,13 @@ p:last-child {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: var(--color-primary);
+  background-color: var(--color-rose-500);
   flex-shrink: 0;
 }
 
+.modality-bullet.gold,
 .modality-bullet.sage {
-  background-color: var(--color-secondary);
+  background-color: var(--color-gold-500);
 }
 
 .modality-desc {
@@ -1083,8 +1169,8 @@ p:last-child {
 }
 
 .superbill-notice-box {
-  background-color: var(--color-secondary-light);
-  border: 1px dashed var(--color-secondary);
+  background-color: var(--color-gold-100);
+  border: 1.5px dashed var(--color-gold-400);
   border-radius: var(--radius-md);
   padding: 16px 20px;
   text-align: center;
@@ -1098,8 +1184,13 @@ p:last-child {
 
 .superbill-notice-box p {
   font-size: 0.95rem;
-  color: var(--color-secondary-dark);
+  color: var(--color-gold-700);
   font-weight: 600;
+}
+
+.superbill-notice-box svg {
+  color: var(--color-gold-600);
+  flex-shrink: 0;
 }
 
 /* Insurance Grid */
@@ -1143,13 +1234,19 @@ p:last-child {
   border: 1px solid var(--color-border);
   text-align: center;
   min-height: 84px;
+  transition: border-color var(--transition-fast), transform var(--transition-fast);
+}
+
+.insurance-badge:hover {
+  border-color: var(--color-gold-300);
+  transform: translateY(-2px);
 }
 
 .insurance-logo-icon {
   width: 32px;
   height: 32px;
   margin-bottom: 6px;
-  color: var(--color-secondary-dark);
+  color: var(--color-gold-700);
 }
 
 .insurance-name {
@@ -1197,25 +1294,30 @@ p:last-child {
   font-size: 0.85rem;
   font-weight: 600;
   color: var(--color-text-main);
+  transition: border-color var(--transition-fast), color var(--transition-fast);
+}
+
+.payment-pill:hover {
+  border-color: var(--color-gold-300);
 }
 
 .payment-pill svg {
   width: 16px;
   height: 16px;
-  color: var(--color-primary);
+  color: var(--color-rose-500);
 }
 
 /* --------------------------------------------------------------------------
    10. Section 5: Call to Action & Contact
    -------------------------------------------------------------------------- */
 .cta-section {
-  background: radial-gradient(circle at 50% 30%, rgba(158, 59, 43, 0.07) 0%, rgba(253, 251, 247, 0) 70%),
+  background: radial-gradient(circle at 50% 30%, rgba(166, 56, 76, 0.08) 0%, rgba(253, 251, 249, 0) 70%),
               var(--color-bg-main);
   padding: var(--space-4xl) 0;
 }
 
 .cta-banner-box {
-  background: linear-gradient(135deg, #FFFFFF 0%, #FAF6F0 100%);
+  background: linear-gradient(135deg, #FFFFFF 0%, #FAF4EB 100%);
   border: 2px solid var(--color-border);
   border-radius: var(--radius-xl);
   padding: 56px 48px;
@@ -1234,15 +1336,16 @@ p:last-child {
   left: 0;
   right: 0;
   height: 6px;
-  background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  background: linear-gradient(90deg, var(--color-rose-500) 0%, var(--color-gold-400) 50%, var(--color-rose-400) 100%);
 }
 
 .cta-butterfly-deco {
   width: 56px;
   height: 56px;
-  color: var(--color-primary);
+  color: var(--color-rose-500);
   margin: 0 auto 20px auto;
-  opacity: 0.9;
+  opacity: 0.95;
+  filter: drop-shadow(0 2px 8px rgba(166, 56, 76, 0.2));
 }
 
 .cta-title {
@@ -1288,11 +1391,11 @@ p:last-child {
    11. Footer
    -------------------------------------------------------------------------- */
 .site-footer {
-  background-color: #242221;
-  color: #ECE9E4;
+  background-color: #1F1A1B;
+  color: #EDE8E5;
   padding-top: var(--space-4xl);
   padding-bottom: var(--space-2xl);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(232, 221, 215, 0.12);
 }
 
 .footer-grid {
@@ -1315,19 +1418,19 @@ p:last-child {
 .footer-butterfly {
   width: 32px;
   height: 32px;
-  color: #F8EBE8;
+  color: var(--color-rose-300);
 }
 
 .footer-credentials {
   font-size: 0.95rem;
   font-weight: 600;
-  color: #D5CFC9;
+  color: var(--color-gold-300);
   margin-bottom: 12px;
 }
 
 .footer-desc {
   font-size: 0.9rem;
-  color: #A9A4A0;
+  color: #BDB2AF;
   line-height: 1.6;
   max-width: 360px;
 }
@@ -1350,12 +1453,12 @@ p:last-child {
 
 .footer-links-list a {
   font-size: 0.95rem;
-  color: #BDB7B2;
+  color: #C8BFBC;
   transition: color var(--transition-fast), padding-left var(--transition-fast);
 }
 
 .footer-links-list a:hover {
-  color: #FFFFFF;
+  color: var(--color-gold-300);
   padding-left: 4px;
 }
 
@@ -1370,14 +1473,14 @@ p:last-child {
   align-items: flex-start;
   gap: 12px;
   font-size: 0.9rem;
-  color: #BDB7B2;
+  color: #C8BFBC;
   line-height: 1.5;
 }
 
 .footer-info-item svg {
   width: 18px;
   height: 18px;
-  color: #D5CFC9;
+  color: var(--color-gold-400);
   flex-shrink: 0;
   margin-top: 2px;
 }
@@ -1387,28 +1490,28 @@ p:last-child {
   margin-top: 18px;
   padding: 12px 16px;
   border-radius: var(--radius-sm);
-  background-color: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(226, 196, 133, 0.25);
   font-size: 0.8125rem;
-  color: #D5CFC9;
+  color: #D6CCC8;
   line-height: 1.4;
 }
 
 .footer-crisis-box strong {
-  color: #FFFFFF;
+  color: var(--color-gold-300);
 }
 
 /* Footer Bottom */
 .footer-bottom {
   padding-top: 32px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(232, 221, 215, 0.12);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
   font-size: 0.875rem;
-  color: #A9A4A0;
+  color: #A39996;
 }
 
 .footer-domain-switch {
@@ -1419,7 +1522,7 @@ p:last-child {
 
 .footer-domain-switch a,
 .footer-lang-link {
-  color: #D5CFC9;
+  color: #D6CCC8;
   text-decoration: underline;
   text-underline-offset: 3px;
   font-size: 0.875rem;
@@ -1433,13 +1536,13 @@ p:last-child {
 
 .footer-domain-switch a.active,
 .footer-lang-link.active {
-  color: #F8EBE8;
+  color: var(--color-rose-200);
   font-weight: 600;
-  text-decoration-color: var(--color-primary);
+  text-decoration-color: var(--color-gold-400);
 }
 
 .footer-domain-divider {
-  color: #7A7470;
+  color: #6B6260;
   user-select: none;
 }
 
@@ -1450,7 +1553,7 @@ p:last-child {
 }
 
 .footer-attribution a {
-  color: #F8EBE8;
+  color: var(--color-gold-300);
   font-weight: 600;
   text-decoration: underline;
   text-underline-offset: 2px;
