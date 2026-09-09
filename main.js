@@ -22,10 +22,10 @@ document.addEventListener('DOMContentLoaded', () => {
         book: "Book Consultation"
       },
       hero: {
-        badge: "Online Teletherapy across North Carolina",
-        title_start: "Rooted in Safety.",
-        title_accent: "Empowered for Transformation.",
-        subheadline: "Life transitions, grief, and generational trauma can leave you feeling disconnected. Through trauma-informed, bilingual teletherapy, Jessica Bravo, LCSW, helps you find your footing, process past struggles, and step into your personal rebirth.",
+        badge: "More thank just talk therapy",
+        title_start: "Healing from Past Experiences and Reclaiming your Life",
+        title_accent: "Begins Here.",
+        subheadline: "Discomfort yiels growth. Growth requires support. You don't have to do it alone. Together, we can create a path forward and begin your self-discovery journey.  Let me support you through the healing process and start leading a more aligned life with your true north.",
         cta_primary: "Schedule Free 15-Min Consultation",
         cta_secondary: "Explore Therapy Services",
         trust_confidential: "100% Confidential Telehealth",
