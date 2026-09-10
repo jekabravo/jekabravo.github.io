@@ -514,20 +514,23 @@
         <div class="payment-methods-strip">
           <span class="payment-strip-label" data-i18n="rates.pay_label">Private-Pay & Direct Payment Methods:</span>
           <div class="payment-pills-list">
-            <span class="payment-pill">
+            <a href="https://www.paypal.com/paypalme/JessicaBravo748" class="payment-pill">
               <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944.901C5.026.382 5.474 0 5.998 0h7.46c2.57 0 4.578.543 5.69 1.81 1.01 1.15 1.304 2.82.875 4.965-.012.062-.027.126-.044.19-.66 2.86-2.128 4.67-4.364 5.38a1.28 1.28 0 0 1-.392.06H11.59l-1.39 8.932H7.076z"/></svg>
               PayPal
-            </span>
+            </a>
             <a href="https://venmo.com/u/Jessica-Bravo-92" class="payment-pill">
               <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.5 3c.8 1.3 1.2 2.8 1.2 4.4 0 4.4-3.5 10-7.2 14.8H7.4L4.5 3.8l5.4-.5 1.7 13.5c1.9-3 3.8-7.3 3.8-10.2 0-1.4-.3-2.4-.7-3.1L19.5 3z"/></svg>
               Venmo
             </a>
-            <span class="payment-pill">
+            <button popovertarget="qrpopover" popovertargetaction="show" class="payment-pill">
               <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path d="M13.5 2h-3v3.2h3V2zm-3 16.8v3.2h3v-3.2h-3zM4.5 6.2v2.8h10.2L4.5 17.8v2.8h15v-2.8H9.3L19.5 9V6.2h-15z"/>
               </svg>
               Zelle
-            </span>
+            </button>
+          </div>
+          <div id="qrpopover" popover>
+              <img src="assets/images/zelle-qr-code.png" />
           </div>
         </div>
 
