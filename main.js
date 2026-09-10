@@ -1,5 +1,5 @@
 /**
- * Bravo Consulting Services - Main JavaScript File
+ * Bravo Counseling & Consulting Services - Main JavaScript File
  * Client: Jessica Bravo, LCSW (NC License #C017999)
  * Features: Bilingual i18n switcher, mobile navigation, smooth scrolling, scrollspy, interactive UI
  * Author: @roggmatz (https://roggmatz.com)
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const translations = {
     en: {
       meta: {
-        title: "Bravo Consulting Services | Jessica Bravo, LCSW | North Carolina Teletherapy",
+        title: "Bravo Counseling & Consulting Services | Jessica Bravo, LCSW | North Carolina Teletherapy",
         description: "Trauma-informed, bilingual teletherapy across North Carolina with Jessica Bravo, LCSW (License #C017999). Specialized in individual, couples, IFS, and somatic therapy."
       },
       nav: {
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         badge: "Meet Your Therapist",
         title: "A Grounded, Compassionate Space for Your Metamorphosis",
         quote: "“Healing is not about becoming someone new—it is about unburdening who you are and returning to your grounded center.”",
-        bio_p1: "Jessica Bravo is a Licensed Clinical Social Worker providing dedicated, trauma-informed teletherapy across all of North Carolina. Bravo Consulting is built on creating a secure, culturally affirming sanctuary where patients can explore their thoughts without prejudice.",
+        bio_p1: "Jessica Bravo is a Licensed Clinical Social Worker providing dedicated, trauma-informed teletherapy across all of North Carolina. Bravo Counseling & Consulting is built on creating a secure, culturally affirming sanctuary where patients can explore their thoughts without prejudice.",
         bio_p2: "As a bilingual clinician, she specializes in helping individuals and couples untangle generational patterns, heal attachment wounds, and navigate monumental life transitions for both English and Spanish speakers. Her therapeutic work thoughtfully blends Internal Family Systems (IFS), Somatic Experiencing, and Relational Psychodynamics to facilitate lasting, rooted transformation.",
         license_badge_title: "North Carolina Licensed Clinical Social Worker",
         license_badge_sub: "Psychology Today Verified Provider",
@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
         email_prefix: "Or email directly at:"
       },
       footer: {
-        brand_sub: "Jessica Bravo, LCSW (NC License #C017999)",
+        brand_sub: "Jessica Bravo, LCSW",
         brand_desc: "Trauma-informed, culturally grounded teletherapy practice guiding your emotional transformation and rebirth across North Carolina.",
         links_title: "Quick Navigation",
         hours_title: "Practice Hours & Telehealth",
@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     es: {
       meta: {
-        title: "Bravo Consulting Services | Jessica Bravo, LCSW | Teleterapia en Carolina del Norte",
+        title: "Bravo Consulting & Consulting Services | Jessica Bravo, LCSW | Teleterapia en Carolina del Norte",
         description: "Teleterapia bilingüe informada en trauma en toda Carolina del Norte con Jessica Bravo, LCSW (Licencia #C017999). Especializada en terapia individual, de pareja, IFS y sanación somática."
       },
       nav: {
@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
         email_prefix: "O envía un correo directamente a:"
       },
       footer: {
-        brand_sub: "Jessica Bravo, LCSW (Licencia NC #C017999)",
+        brand_sub: "Jessica Bravo, LCSW",
         brand_desc: "Práctica de teleterapia bilingüe e informada en trauma dedicada a guiar tu renacer y transformación emocional en toda Carolina del Norte.",
         links_title: "Navegación Rápida",
         hours_title: "Horarios de Atención y Teleterapia",
