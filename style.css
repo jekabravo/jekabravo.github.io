@@ -1248,7 +1248,7 @@ p:last-child {
 
 .insurance-logo-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   align-items: center;
 }
@@ -1263,7 +1263,7 @@ p:last-child {
   background-color: var(--color-bg-main);
   border: 1.5px solid var(--color-gold-200);
   text-align: center;
-  min-height: 84px;
+  height: 120px;
   color: var(--color-gold-700);
   transition: border-color var(--transition-normal), transform var(--transition-normal), box-shadow var(--transition-normal);
 }
