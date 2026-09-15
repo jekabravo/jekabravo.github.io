@@ -22,10 +22,10 @@ document.addEventListener('DOMContentLoaded', () => {
         book: "Book Consultation"
       },
       hero: {
-        badge: "More thank just talk therapy",
+        badge: "More than just talk therapy",
         title_start: "Healing from Past Experiences and Reclaiming your Life",
         title_accent: "Begins Here.",
-        subheadline: "Discomfort yiels growth. Growth requires support. You don't have to do it alone. Together, we can create a path forward and begin your self-discovery journey.  Let me support you through the healing process and start leading a more aligned life with your true north.",
+        subheadline: "Discomfort yields growth: Let me support you through the healing process and start leading a more aligned life with your true north. Rooted in safety. Empowered for Transformation. Life transitions, grief, and generational trauma can leave you feeling disconnected. Through trauma-informed, bilingual therapy, Jessica Bravo, LCSW, helps you find your footing, process, past burdens, and step into your personal rebirth.",
         cta_primary: "Schedule Free 15-Min Consultation",
         cta_secondary: "Explore Therapy Services",
         trust_confidential: "100% Confidential Telehealth",
@@ -127,10 +127,10 @@ document.addEventListener('DOMContentLoaded', () => {
         book: "Reservar Consulta"
       },
       hero: {
-        badge: "Teleterapia en Línea en Carolina del Norte",
-        title_start: "Arraigada en la Seguridad.",
-        title_accent: "Empoderada para la Transformación.",
-        subheadline: "Las transiciones de la vida, el duelo y el trauma generacional pueden dejarte sintiéndote desconectado/a. A través de la teleterapia bilingüe, Jessica Bravo, LCSW, te ayuda a encontrar estabilidad, procesar cargas pasadas y dar el paso hacia tu renacer personal.",
+        badge: "Es muchisimo mas que simple terapia de conversación",
+        title_start: "Sanar de experiencias pasadas y comenzar a reclamar tu vida",
+        title_accent: "comienza aquí.",
+        subheadline: "La incomodidad genera crecimiento: Permíteme apoyarte en el proceso de sanación y empezar a llevar una vida más alineada con tu verdadero norte. Con raíces en la seguridad. Impulsados para la transformación. Las transiciones de la vida, el duelo y el trauma generacional pueden hacerte sentir desconectado. A través de una terapia bilingüe y con enfoque en el trauma, Jessica Bravo, LCSW, te ayuda a encontrar estabilidad, procesar cargas del pasado y avanzar hacia tu renacimiento personal.",
         cta_primary: "Programar Consulta Gratuita de 15 Min",
         cta_secondary: "Explorar Servicios de Terapia",
         trust_confidential: "Teleterapia 100% Confidencial",
