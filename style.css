@@ -425,7 +425,7 @@ p:last-child {
   height: 70px;
   color: var(--color-gold-500);
   flex-shrink: 0;
-  filter: drop-shadow(0 2px 6px rgba(184, 134, 40, 0.35));
+  filter: invert(94%) sepia(11%) saturate(4403%) hue-rotate(325deg) brightness(89%) contrast(76%) drop-shadow(0 2px 6px rgba(184, 134, 40, 0.35));
 }
 
 .brand-title-group {
