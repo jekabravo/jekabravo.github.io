@@ -1401,7 +1401,7 @@ p:last-child {
   color: var(--color-gold-500);
   margin: 0 auto 20px auto;
   opacity: 0.95;
-  filter: drop-shadow(0 4px 14px rgba(184, 134, 40, 0.4));
+  filter: invert(53%) sepia(51%) saturate(601%) hue-rotate(1deg) brightness(93%) contrast(91%) drop-shadow(0 4px 14px rgba(184, 134, 40, 0.4));
 }
 
 .cta-title {
@@ -1482,7 +1482,7 @@ p:last-child {
   width: 34px;
   height: 34px;
   color: var(--color-gold-400);
-  filter: drop-shadow(0 2px 6px rgba(184, 134, 40, 0.35));
+  filter: invert(62%) sepia(61%) saturate(421%) hue-rotate(2deg) brightness(95%) contrast(83%) drop-shadow(0 2px 6px rgba(184, 134, 40, 0.35));
 }
 
 .footer-credentials {
