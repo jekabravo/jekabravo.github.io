@@ -86,8 +86,8 @@ document.addEventListener('DOMContentLoaded', () => {
         subtitle: "Clear, upfront fee structure with seamless in-network insurance verification via Headway.",
         ind_service: "Individual Therapy Session",
         ind_price: "$150",
-        duration: "per 50-minute session after an initial $180 assessment",
-        couple_duration: "per 50-minute session after an initial $230 assessment",
+        duration: "/ 50-minute session after an initial $180 assessment",
+        couple_duration: "/ 50-minute session after an initial $230 assessment",
         ind_desc: "Focused one-on-one virtual teletherapy customized to your healing journey.",
         cpl_service: "Couples Therapy Session",
         cpl_price: "$200",
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
         headline: "Your Story Isn’t Over. Take the First Step Today.",
         subtext: "Booking a free 15-minute phone consultation gives us an opportunity to connect, discuss your goals, and ensure we are the right therapeutic match.",
         primary_btn: "Book a Free Consultation",
-        email_prefix: "Or email directly at:"
+        email_prefix: "Or email  :"
       },
       footer: {
         brand_sub: "Jessica Bravo, LCSW",
@@ -208,7 +208,7 @@ document.addEventListener('DOMContentLoaded', () => {
         headline: "Tu Historia No Ha Terminado. Da el Primer Paso Hoy.",
         subtext: "Reservar una consulta telefónica gratuita de 15 minutos nos permite conectar, hablar sobre tus metas y confirmar si somos el equipo ideal para tu proceso.",
         primary_btn: "Reserva una Consulta Gratuita",
-        email_prefix: "O envía un correo directamente a:"
+        email_prefix: "O envía un correo a:"
       },
       footer: {
         brand_sub: "Jessica Bravo, LCSW",
