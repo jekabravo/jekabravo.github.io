@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
         badge: "Take the Next Step",
         headline: "Your Story Isn’t Over. Take the First Step Today.",
         subtext: "Booking a free 15-minute phone consultation gives us an opportunity to connect, discuss your goals, and ensure we are the right therapeutic match.",
-        primary_btn: "Book Free 15-Min Consultation via Headway",
+        primary_btn: "Book a Free Consultation",
         email_prefix: "Or email directly at:"
       },
       footer: {
@@ -207,7 +207,7 @@ document.addEventListener('DOMContentLoaded', () => {
         badge: "Da el Siguiente Paso",
         headline: "Tu Historia No Ha Terminado. Da el Primer Paso Hoy.",
         subtext: "Reservar una consulta telefónica gratuita de 15 minutos nos permite conectar, hablar sobre tus metas y confirmar si somos el equipo ideal para tu proceso.",
-        primary_btn: "Reservar Consulta Gratuita de 15 Min vía Headway",
+        primary_btn: "Reserva una Consulta Gratuita",
         email_prefix: "O envía un correo directamente a:"
       },
       footer: {
