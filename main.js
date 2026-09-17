@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         badge: "More than just talk therapy",
         title_start: "Healing from Past Experiences and Reclaiming your Life",
         title_accent: "Begins Here.",
-        subheadline: "Discomfort yields growth: Let me support you through the healing process and start leading a more aligned life with your true north. Rooted in safety. Empowered for Transformation. Life transitions, grief, and generational trauma can leave you feeling disconnected. Through trauma-informed, bilingual therapy, Jessica Bravo, LCSW, helps you find your footing, process, past burdens, and step into your personal rebirth.",
+        subheadline: "Discomfort yields growth: <br /> Let me support you through the healing process and start leading a more aligned life with your true north. Rooted in safety. Empowered for Transformation. Life transitions, grief, and generational trauma can leave you feeling disconnected. Through trauma-informed, bilingual therapy, Jessica Bravo, LCSW, helps you find your footing, process, past burdens, and step into your personal rebirth.",
         cta_primary: "Schedule Free 15-Min Consultation",
         cta_secondary: "Explore Therapy Services",
         trust_confidential: "100% Confidential Telehealth",
@@ -288,7 +288,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
           el.setAttribute('placeholder', val);
         } else {
-          el.textContent = val;
+          el.innerHTML = String(val).replace(/\n/g, '<br />');
         }
       }
     });
