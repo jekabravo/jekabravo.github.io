@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         badge: "More than just talk therapy",
         title_start: "Healing from Past Experiences and Reclaiming your Life",
         title_accent: "Begins Here.",
-        subheadline: "Discomfort yields growth.<br />Growth Requires support.<br />You don't have to do it alone. Together, we can create a path forward and begin your self-discovery journey.<br /><br />Let me support you through the healing process. Start leading a more aligned life with your true north.",
+        subheadline: "Discomfort yields growth. Growth Requires support.<br /><br />You don't have to do it alone. Together, we can create a path forward and begin your self-discovery journey.<br /><br />Let me support you through the healing process. Start leading a more aligned life with your true north.",
         cta_primary: "Schedule Free 15-Min Consultation",
         cta_secondary: "Explore Therapy Services",
         trust_confidential: "100% Confidential Telehealth",
