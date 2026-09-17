@@ -1168,7 +1168,6 @@ p:last-child {
 
 .fee-price-tag {
   display: flex;
-  align-items: baseline;
   justify-content: center;
   gap: 4px;
   margin: 16px 0;
