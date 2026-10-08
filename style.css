@@ -1896,8 +1896,8 @@ p:last-child {
 
 /* Main Story Section & Two-Column Grid */
 .about-story-section {
-  padding-top: var(--space-3xl) 0;
-  padding-bottom: 0;
+  padding: var(--space-3xl) 0;
+  padding-bottom: 0
 }
 
 .about-story-grid {
