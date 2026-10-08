@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
         read_story: "Read Jessica's Full Story"
       },
       about_page: {
-        meta_title: "About Jessica Bravo, LCSW | From Teen Mom to Psychotherapist",
+        meta_title: "About Jessica Bravo, LCSW",
         meta_desc: "Read the story of Jessica Bravo, LCSW: An unconventional journey from teen mom to psychotherapist, grounded in resilience, self energy, and social services.",
         hero_badge: "Her Story & Roots",
         hero_title: "From Teen Mom to Psychotherapist",
@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', () => {
         read_story: "Conozca la Historia Completa de Jessica"
       },
       about_page: {
-        meta_title: "Sobre Jessica Bravo, LCSW | De Madre Adolescente a Psicoterapeuta",
+        meta_title: "Sobre Jessica Bravo, LCSW",
         meta_desc: "Conozca la historia de Jessica Bravo, LCSW: Un viaje no convencional de madre adolescente a psicoterapeuta, arraigado en la resiliencia y la vocación de servicio.",
         hero_badge: "Su Historia y Raíces",
         hero_title: "De Madre Adolescente a Psicoterapeuta",
