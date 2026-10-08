@@ -47,7 +47,38 @@ document.addEventListener('DOMContentLoaded', () => {
         val2_title: "Transformational Care",
         val2_desc: "Internal Family Systems (IFS) to harmonize inner parts, release trauma, and step into self-energy.",
         val3_title: "Culturally Inclusive",
-        val3_desc: "Bilingual (EN/ES), culturally attuned care honoring heritage, generational resilience, and lived experience."
+        val3_desc: "Bilingual (EN/ES), culturally attuned care honoring heritage, generational resilience, and lived experience.",
+        read_story: "Read Jessica's Full Story"
+      },
+      about_page: {
+        meta_title: "About Jessica Bravo, LCSW | From Teen Mom to Psychotherapist",
+        meta_desc: "Read the story of Jessica Bravo, LCSW: An unconventional journey from teen mom to psychotherapist, grounded in resilience, self energy, and social services.",
+        hero_badge: "Her Story & Roots",
+        hero_title: "From Teen Mom to Psychotherapist",
+        hero_subtitle: "My unconventional journey to becoming a helping professional.",
+        owner_caption_name: "Jessica Bravo, LCSW",
+        owner_caption_title: "NC License #C017999",
+        milestone_header: "Credentials & Roots",
+        ms1_text: "BSW & MSW Graduate",
+        ms2_text: "10+ Years Helping Experience",
+        ms3_text: "Bilingual Care (EN / ES)",
+        lead_p1: "Statistically speaking, I wasn’t supposed to attain a college degree. Let alone a Master’s degree.",
+        lead_p2: "There are capable and enlightening human beings behind any statistic. Despite all staggering odds against us, we are light at our core. This powerful source of self energy lives within us all and can guide us out of storms life can throw at us. I know it did for me.",
+        chapter2_tag: "Roots in Social Services",
+        social_services_p: "My career started in social services. Through my years of service, I encountered diverse individuals facing complex barriers to well-being. Their environment played a significant factor. However, time after time, I witnessed people’s ability to overcome adversity and create the life they imagined possible. I believe in our ability to create, change, and grow beyond the limiting beliefs set forth by our social, cultural, and familial conditioning.",
+        highlight_quote: "The power of therapy and commitment to self.",
+        vulnerability_p: "Therapy has provided me with the wisdom of self-discovery, and it has allowed me to sit with my pain. True strength lies in our ability to feel and be vulnerable.",
+        pillar1_title: "Inherent Inner Light",
+        pillar1_desc: "Every person possesses indestructible self energy capable of guiding them through adversity.",
+        pillar2_title: "Systemic Resilience",
+        pillar2_desc: "Recognizing environmental challenges while reclaiming the power to rewrite limiting scripts.",
+        pillar3_title: "Courage in Vulnerability",
+        pillar3_desc: "Learning to sit with discomfort and pain as the true foundation for lasting healing.",
+        cta_heading: "Ready to Reclaim Your Story?",
+        cta_sub: "Schedule a complimentary 15-minute consultation to see how we can work together.",
+        cta_btn: "Book a Free Consultation",
+        cta_services_btn: "Explore Therapy Services",
+        nav_home: "Home"
       },
       services: {
         badge: "Specialized Therapy Services",
@@ -153,7 +184,38 @@ document.addEventListener('DOMContentLoaded', () => {
         val2_title: "Cuidado Transformador",
         val2_desc: "Sistemas de Familia Interna (IFS) para armonizar partes internas, liberar traumas y liderar desde el Ser.",
         val3_title: "Inclusión Cultural",
-        val3_desc: "Atención bilingüe (ES/EN) y culturalmente sensible que honra las raíces, la resiliencia familiar y las vivencias personales."
+        val3_desc: "Atención bilingüe (ES/EN) y culturalmente sensible que honra las raíces, la resiliencia familiar y las vivencias personales.",
+        read_story: "Conozca la Historia Completa de Jessica"
+      },
+      about_page: {
+        meta_title: "Sobre Jessica Bravo, LCSW | De Madre Adolescente a Psicoterapeuta",
+        meta_desc: "Conozca la historia de Jessica Bravo, LCSW: Un viaje no convencional de madre adolescente a psicoterapeuta, arraigado en la resiliencia y la vocación de servicio.",
+        hero_badge: "Su Historia y Raíces",
+        hero_title: "De Madre Adolescente a Psicoterapeuta",
+        hero_subtitle: "Mi viaje poco convencional hacia convertirme en una profesional de ayuda.",
+        owner_caption_name: "Jessica Bravo, LCSW",
+        owner_caption_title: "Licencia de NC #C017999",
+        milestone_header: "Credenciales y Raíces",
+        ms1_text: "Graduada de BSW y MSW",
+        ms2_text: "Más de 10 Años de Experiencia en Ayuda",
+        ms3_text: "Atención Bilingüe (Español e Inglés)",
+        lead_p1: "Estadísticamente hablando, no se suponía que obtuviera un título universitario. Mucho menos una maestría.",
+        lead_p2: "Detrás de cualquier estadística hay seres humanos capaces e iluminadores. A pesar de todas las abrumadoras probabilidades en nuestra contra, somos luz en nuestro núcleo. Esta poderosa fuente de energía propia vive dentro de todos nosotros y puede guiarnos a salir de las tormentas que la vida nos presente. Sé que lo hizo por mí.",
+        chapter2_tag: "Raíces en los Servicios Sociales",
+        social_services_p: "Mi carrera comenzó en los servicios sociales. A lo largo de mis años de servicio, conocí a diversas personas que enfrentaban complejas barreras para su bienestar. Su entorno jugó un papel fundamental. Sin embargo, una y otra vez, presencié la capacidad de las personas para superar la adversidad y crear la vida que soñaban posible. Creo en nuestra capacidad de crear, cambiar y crecer más allá de las creencias limitantes impuestas por nuestro condicionamiento social, cultural y familiar.",
+        highlight_quote: "El poder de la terapia y el compromiso con uno mismo.",
+        vulnerability_p: "La terapia me ha brindado la sabiduría del autodescubrimiento y me ha permitido sentarme con mi dolor. La verdadera fortaleza reside en nuestra capacidad de sentir y ser vulnerables.",
+        pillar1_title: "Luz Interior Inherente",
+        pillar1_desc: "Cada persona posee una energía propia indestructible capaz de guiarla a través de la adversidad.",
+        pillar2_title: "Resiliencia Sistémica",
+        pillar2_desc: "Reconocer las barreras del entorno mientras se recupera el poder de reescribir creencias limitantes.",
+        pillar3_title: "Valentía en la Vulnerabilidad",
+        pillar3_desc: "Aprender a sostener el dolor y las emociones como el verdadero pilar para sanar profundamente.",
+        cta_heading: "¿Listo/a para Reclamar Tu Historia?",
+        cta_sub: "Programa una consulta gratuita de 15 minutos para ver cómo podemos trabajar juntos/as.",
+        cta_btn: "Programar Consulta Gratuita",
+        cta_services_btn: "Explorar Servicios de Terapia",
+        nav_home: "Inicio"
       },
       services: {
         badge: "Servicios Terapéuticos Especializados",
@@ -262,7 +324,11 @@ document.addEventListener('DOMContentLoaded', () => {
     document.documentElement.lang = lang;
 
     // Update Meta Title & Description
-    if (t.meta) {
+    if (document.body.dataset.page === 'about' && t.about_page) {
+      document.title = t.about_page.meta_title;
+      const metaDesc = document.querySelector('meta[name="description"]');
+      if (metaDesc) metaDesc.setAttribute('content', t.about_page.meta_desc);
+    } else if (t.meta) {
       document.title = t.meta.title;
       const metaDesc = document.querySelector('meta[name="description"]');
       if (metaDesc) metaDesc.setAttribute('content', t.meta.description);
