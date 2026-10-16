@@ -132,8 +132,8 @@ document.addEventListener('DOMContentLoaded', () => {
         badge: "Take the Next Step",
         headline: "Your Story Isn’t Over. Take the First Step Today.",
         subtext: "Booking a free 15-minute phone consultation gives us an opportunity to connect, discuss your goals, and ensure we are the right therapeutic match.",
-        primary_btn: "Book a Free Consultation",
-        email_prefix: "Or email  :"
+        primary_btn: "Call to Book a Free Consultation",
+        email_prefix: "Or email"
       },
       footer: {
         brand_sub: "Jessica Bravo, LCSW",
@@ -269,8 +269,8 @@ document.addEventListener('DOMContentLoaded', () => {
         badge: "Da el Siguiente Paso",
         headline: "Tu Historia No Ha Terminado. Da el Primer Paso Hoy.",
         subtext: "Reservar una consulta telefónica gratuita de 15 minutos nos permite conectar, hablar sobre tus metas y confirmar si somos el equipo ideal para tu proceso.",
-        primary_btn: "Reserva una Consulta Gratuita",
-        email_prefix: "O envía un correo a:"
+        primary_btn: "Marca Para Reservar una Consulta Gratuita",
+        email_prefix: "O envia un mansaje a"
       },
       footer: {
         brand_sub: "Jessica Bravo, LCSW",
