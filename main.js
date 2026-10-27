@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         badge: "More than just talk therapy",
         title_start: "Healing from Past Experiences and Reclaiming your Life",
         title_accent: "Begins Here.",
-        subheadline: "Discomfort yields growth. Growth Requires support. You do not have to do it alone. Together, we can create a path forward and begin your self-discovery journey.<br />Psychotherapy is about building a deeper relationship with self and all parts. Rooted in Safety. Empowered for Transformation.<br />Life transitions, grief, and generational trauma can leave you feeling disconnected. Through trauma-informed, bilingual teletherapy, Jessica Bravo, LCSW, helps you find your footing, process past struggles, and step into your personal rebirth.",
+        subheadline: "Discomfort yields growth. Growth Requires support. You do not have to do it alone. Together, we can create a path forward and begin your self-discovery journey.<br />Psychotherapy is about building a deeper relationship with self and all parts. Rooted in Safety. Empowered for Transformation.<br />Life transitions, grief, and generational trauma can leave you feeling disconnected.<br />Through trauma-informed, bilingual teletherapy, Jessica Bravo, LCSW, helps you find your footing, process past struggles, and step into your personal rebirth.",
         cta_primary: "Call to Schedule Free 15-Min Consultation",
         cta_secondary: "Explore Therapy Services",
         trust_confidential: "100% Confidential Telehealth",
