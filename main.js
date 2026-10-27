@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', () => {
         badge: "Es muchisimo mas que simple terapia de conversación",
         title_start: "Sanar de experiencias pasadas y comenzar a reclamar tu vida",
         title_accent: "comienza aquí.",
-        subheadline: "El malestar trae crecimiento. El crecimiento requiere apoyo.<br /><br />No tienes que hacerlo solo/a. Juntos, podemos crear un camino hacia adelante y comenzar tu viaje de autodescubrimiento.<br /><br />Permíteme apoyarte durante el proceso de sanación. Empieza a llevar una vida más alineada con tu brújula interior.",
+        subheadline: "El malestar produce crecimiento. El crecimiento requiere apoyo. No tienes que hacerlo solo. Juntos, podemos crear un camino hacia adelante y comenzar tu viaje de autodescubrimiento.<br/>La psicoterapia se trata de construir una relación más profunda contigo mismo y con todas tus partes. Enraizada en la seguridad. Empoderada para la transformación.<br />Las transiciones de vida, el duelo y el trauma generacional pueden dejarte sintiendo desconexión. A través de teleterapia bilingüe e informada sobre el trauma, Jessica Bravo, LCSW, te ayuda a encontrar tu estabilidad, procesar las luchas del pasado y dar paso a tu renacimiento personal.",
         cta_primary: "Marque para Programar Consulta Gratuita de 15 Min",
         cta_secondary: "Explorar Servicios de Terapia",
         trust_confidential: "Teleterapia 100% Confidencial",
