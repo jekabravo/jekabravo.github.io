@@ -633,6 +633,7 @@ p:last-child {
 .hero-title span.accent {
   color: var(--color-gold-600);
   background: linear-gradient(135deg, #B88628 0%, #784F0B 100%);
+  font-size: 2.5rem;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
