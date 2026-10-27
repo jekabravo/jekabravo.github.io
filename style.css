@@ -1665,7 +1665,60 @@ p:last-child {
   }
 }
 
+/* Legal Services: Immigration Evaluations */
+.legal-services-wrapper {
+  margin-top: 48px;
+}
+
+.legal-card {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.legal-focus-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px 32px;
+  flex-grow: 0;
+}
+
+.legal-facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.legal-fact {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: center;
+  background-color: var(--color-gold-50);
+  border: 1.5px solid var(--color-gold-200);
+  border-radius: var(--radius-md);
+  padding: 18px 16px;
+}
+
+.legal-fact-value {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--color-gold-800);
+}
+
+.legal-fact-label {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  line-height: 1.4;
+}
+
 @media (max-width: 768px) {
+  .legal-focus-list,
+  .legal-facts {
+    grid-template-columns: 1fr;
+  }
+
   :root {
     --space-4xl: 4rem;
     --space-3xl: 3rem;
