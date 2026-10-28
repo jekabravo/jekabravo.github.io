@@ -81,8 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
         nav_home: "Home"
       },
       services: {
-        badge: "Specialized Therapy Services",
-        title: "Our Therapeutic Pathways",
+        title: "Services",
         subtitle: "100% confidential teletherapy from the comfort of your own space, accessible anywhere in North Carolina.",
         ind_tag: "Adults (18+)",
         ind_title: "Individual Therapy",
@@ -238,8 +237,7 @@ document.addEventListener('DOMContentLoaded', () => {
         nav_home: "Inicio"
       },
       services: {
-        badge: "Servicios Terapéuticos Especializados",
-        title: "Nuestras Vías Terapéuticas",
+        title: "Servicios",
         subtitle: "Teleterapia 100% confidencial desde la comodidad de su propio espacio, accesible en toda Carolina del Norte.",
         ind_tag: "Adultos (18+)",
         ind_title: "Terapia Individual",
