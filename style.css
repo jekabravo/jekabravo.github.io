@@ -1124,6 +1124,22 @@ p:last-child {
   line-height: 1.45;
 }
 
+/* Legal evaluations row: card + stacked evaluation container */
+.legal-eval-grid {
+  margin-top: 48px;
+  margin-bottom: 0;
+}
+
+.modality-grid.modality-stack {
+  grid-template-columns: 1fr;
+}
+
+.evaluation-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* --------------------------------------------------------------------------
    9. Section 4: Rates, Insurance & Payment Options
    -------------------------------------------------------------------------- */
