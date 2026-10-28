@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       nav: {
         about: "About",
+        approach: "Approach",
         services: "Services",
         rates: "Rates & Insurance",
         book: "Book Consultation"
@@ -49,6 +50,37 @@ document.addEventListener('DOMContentLoaded', () => {
         val3_title: "Culturally Inclusive",
         val3_desc: "Bilingual (EN/ES), culturally attuned care honoring heritage, generational resilience, and lived experience.",
         read_story: "Read Jessica's Full Story"
+      },
+      approach_page: {
+        meta_title: "My Therapeutic Approach | Jessica Bravo, LCSW",
+        meta_desc: "More than talk therapy: Jessica Bravo, LCSW combines Internal Family Systems (IFS), Somatic Experiencing, and Attachment Theory to support mind, body, and soul healing.",
+        hero_badge: "My Approach",
+        hero_title: "More than just talk therapy",
+        hero_lead: "Healing from past experiences, connecting to your feelings, and creating a compassionate relationship with all your parts begins here.",
+        mbs_heading: "True healing requires a deeper, multi-level approach that incorporates the Mind, Body, & Soul",
+        mbs_p1: "Creating awareness and gaining insight about yourself is only the first step. Learning your patterns and coping mechanisms yields understanding, <strong>NOT</strong> healing. Feelings are processed through an integrated approach with our bodies, <strong>NOT</strong> our minds alone.",
+        mbs_p2: "Here, your feelings, thoughts, and behaviors are not pathologized. Our work involves connecting with your parts and creating a compassionate relationship with self that leads to inner peace and lasting change.",
+        mind_title: "Mind",
+        mind_desc: "Awareness and insight into your patterns are the first step.",
+        body_title: "Body",
+        body_desc: "Feelings are processed through the body, not the mind alone.",
+        soul_title: "Soul",
+        soul_desc: "Your Self energy leads the way to inner peace and lasting change.",
+        awaits_heading: "What Awaits You",
+        await1: "A safe space grounded in compassion and curiosity",
+        await2: "A judgement-free approach for all your parts",
+        await3: "Radical acceptance of what was, what is, and what is not",
+        await4: "A Mind, Body, & Soul integrated healing approach",
+        await5: "A place to gain clarity and be intentional with yourself",
+        await6: "A supportive environment to connect with your pain, sit in discomfort, access your Self energy, and begin your personal metamorphosis",
+        modal_tag: "My therapeutic approach",
+        modal_intro: "I use a combination of Internal Family Systems (IFS), Somatic Experiencing, and Attachment Theory to support your healing.",
+        ifs_heading: "What is IFS?",
+        ifs_p1: "IFS is an evidence-based therapeutic modality used to identify the root causes behind emotional and behavioral patterns. One of the core concepts of IFS is the Self, which refers to the core compassionate center of every person. Self is equipped to lead and heal. The term Self energy can be used interchangeably with Soul energy.",
+        parts_tag: "Understanding Your Parts",
+        ifs_p2: "IFS understands that we are made up of various parts. All parts have a role within our internal system and carry their own history. Through IFS we develop compassionate relationships with all of our parts. The focus of IFS is to access our Self energy and help our parts heal the burdens they carry.",
+        closing_quote: "IFS is a transformative, trauma-informed, evidence-based, holistic approach.",
+        closing_body: "Let me support you as you learn to access your Self energy and begin your personal metamorphosis."
       },
       about_page: {
         meta_title: "About Jessica Bravo, LCSW",
@@ -173,6 +205,7 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       nav: {
         about: "Sobre Mí",
+        approach: "Enfoque",
         services: "Servicios",
         rates: "Tarifas y Seguro",
         book: "Reservar Consulta"
@@ -205,6 +238,37 @@ document.addEventListener('DOMContentLoaded', () => {
         val3_title: "Inclusión Cultural",
         val3_desc: "Atención bilingüe (ES/EN) y culturalmente sensible que honra las raíces, la resiliencia familiar y las vivencias personales.",
         read_story: "Conozca la Historia Completa de Jessica"
+      },
+      approach_page: {
+        meta_title: "Mi Enfoque Terapéutico | Jessica Bravo, LCSW",
+        meta_desc: "Más que terapia de conversación: Jessica Bravo, LCSW combina Sistemas Familiares Internos (IFS), Experiencia Somática y Teoría del Apego para apoyar la sanación de mente, cuerpo y alma.",
+        hero_badge: "Mi Enfoque",
+        hero_title: "Más que terapia de conversación",
+        hero_lead: "Sanar experiencias pasadas, conectar con tus sentimientos y crear una relación compasiva con todas tus partes comienza aquí.",
+        mbs_heading: "La verdadera sanación requiere un enfoque más profundo y multinivel que incorpore la Mente, el Cuerpo y el Alma",
+        mbs_p1: "Crear conciencia y obtener perspectiva sobre ti es solo el primer paso. Conocer tus patrones y mecanismos de afrontamiento produce comprensión, <strong>NO</strong> sanación. Los sentimientos se procesan mediante un enfoque integrado con nuestro cuerpo, <strong>NO</strong> solo con la mente.",
+        mbs_p2: "Aquí, tus sentimientos, pensamientos y conductas no se patologizan. Nuestro trabajo consiste en conectar con tus partes y crear una relación compasiva contigo que conduzca a la paz interior y a un cambio duradero.",
+        mind_title: "Mente",
+        mind_desc: "La conciencia y la perspectiva sobre tus patrones son el primer paso.",
+        body_title: "Cuerpo",
+        body_desc: "Los sentimientos se procesan a través del cuerpo, no solo de la mente.",
+        soul_title: "Alma",
+        soul_desc: "Tu energía del Ser guía el camino hacia la paz interior y el cambio duradero.",
+        awaits_heading: "Lo Que Te Espera",
+        await1: "Un espacio seguro basado en la compasión y la curiosidad",
+        await2: "Un enfoque sin juicios para todas tus partes",
+        await3: "Aceptación radical de lo que fue, lo que es y lo que no es",
+        await4: "Un enfoque de sanación integrado de Mente, Cuerpo y Alma",
+        await5: "Un lugar para ganar claridad y ser intencional contigo",
+        await6: "Un entorno de apoyo para conectar con tu dolor, permanecer en la incomodidad, acceder a tu energía del Ser y comenzar tu metamorfosis personal",
+        modal_tag: "Mi enfoque terapéutico",
+        modal_intro: "Combino Sistemas Familiares Internos (IFS), Experiencia Somática y Teoría del Apego para apoyar tu sanación.",
+        ifs_heading: "¿Qué es IFS?",
+        ifs_p1: "IFS es una modalidad terapéutica basada en evidencia que se usa para identificar las causas profundas de los patrones emocionales y conductuales. Uno de sus conceptos centrales es el Ser, el centro compasivo de toda persona. El Ser está capacitado para guiar y sanar. El término energía del Ser puede usarse indistintamente con energía del Alma.",
+        parts_tag: "Entendiendo Tus Partes",
+        ifs_p2: "IFS entiende que estamos formados por diversas partes. Todas tienen un papel en nuestro sistema interno y cargan su propia historia. A través de IFS desarrollamos relaciones compasivas con todas nuestras partes. El enfoque de IFS es acceder a nuestra energía del Ser y ayudar a nuestras partes a sanar las cargas que llevan.",
+        closing_quote: "IFS es un enfoque transformador, informado en trauma, basado en evidencia y holístico.",
+        closing_body: "Permíteme apoyarte mientras aprendes a acceder a tu energía del Ser y comienzas tu metamorfosis personal."
       },
       about_page: {
         meta_title: "Sobre Jessica Bravo, LCSW",
@@ -362,10 +426,11 @@ document.addEventListener('DOMContentLoaded', () => {
     document.documentElement.lang = lang;
 
     // Update Meta Title & Description
-    if (document.body.dataset.page === 'about' && t.about_page) {
-      document.title = t.about_page.meta_title;
+    const pageKey = { about: 'about_page', approach: 'approach_page' }[document.body.dataset.page];
+    if (pageKey && t[pageKey]) {
+      document.title = t[pageKey].meta_title;
       const metaDesc = document.querySelector('meta[name="description"]');
-      if (metaDesc) metaDesc.setAttribute('content', t.about_page.meta_desc);
+      if (metaDesc) metaDesc.setAttribute('content', t[pageKey].meta_desc);
     } else if (t.meta) {
       document.title = t.meta.title;
       const metaDesc = document.querySelector('meta[name="description"]');

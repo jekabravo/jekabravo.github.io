@@ -2248,3 +2248,180 @@ p:last-child {
     padding: 20px 22px;
   }
 }
+
+/* ==========================================================================
+   "My Approach" Page Styles (approach.html)
+   Reuses the About page hero, cards, quote and CTA components.
+   ========================================================================== */
+.approach-hero-lead {
+  font-family: var(--font-heading);
+  font-size: clamp(1.3rem, 2.6vw, 1.7rem);
+  line-height: 1.5;
+  color: var(--color-gold-700);
+  margin: 4px auto var(--space-lg);
+  max-width: 720px;
+}
+
+.approach-section {
+  padding: var(--space-3xl) 0 0;
+}
+
+.approach-page .about-page-main {
+  padding-bottom: 0;
+}
+
+.approach-page .about-cta-section {
+  margin-top: var(--space-3xl);
+}
+
+.approach-split {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  align-items: center;
+}
+
+.approach-split-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.approach-figure {
+  margin: 0 auto;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  border: 4px solid var(--color-gold-400);
+  box-shadow: 0 16px 36px rgba(120, 38, 55, 0.16), 0 0 24px rgba(184, 134, 40, 0.22);
+  background-color: var(--color-rose-100);
+  aspect-ratio: 4 / 5;
+  max-width: 440px;
+  width: 100%;
+}
+
+.approach-figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.approach-heading {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  line-height: 1.3;
+  color: var(--color-text-main);
+}
+
+.approach-heading-sm {
+  font-size: clamp(1.4rem, 2.4vw, 1.75rem);
+  margin-bottom: 14px;
+  color: var(--color-rose-700);
+}
+
+.approach-mbs-grid {
+  margin-top: 40px;
+}
+
+.approach-awaits-card {
+  margin: 0;
+  padding: 32px 24px;
+}
+
+.approach-awaits-list {
+  list-style: none;
+  margin: 24px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.approach-await-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 14px 16px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid var(--color-gold-200);
+  border-radius: var(--radius-sm);
+  color: var(--color-text-main);
+  font-size: 1.02rem;
+  line-height: 1.55;
+}
+
+.approach-await-icon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: var(--color-gold-100);
+  color: var(--color-gold-700);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.approach-modal-intro {
+  margin-top: 12px;
+  max-width: 760px;
+}
+
+.approach-modal-chips {
+  list-style: none;
+  margin: 0 0 32px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.approach-closing-quote {
+  margin-top: 40px;
+}
+
+.approach-closing-quote .story-chapter-body {
+  margin-top: 14px;
+  color: var(--color-text-main);
+}
+
+.approach-cta-figure {
+  margin: 0 auto 20px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid var(--color-gold-400);
+  background: var(--color-rose-800);
+}
+
+.approach-cta-figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .approach-awaits-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .approach-awaits-card {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .approach-split {
+    grid-template-columns: 400px 1fr;
+    gap: 56px;
+  }
+
+  .approach-split-reverse {
+    grid-template-columns: 1fr 400px;
+  }
+
+  .approach-figure {
+    margin-inline: 0;
+  }
+}
