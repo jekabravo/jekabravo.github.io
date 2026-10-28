@@ -283,26 +283,32 @@
     </section>
 
     <!-- ----------------------------------------------------------------------
-         Section 3: Specialized Therapy Services
+         Section 3: Services (Psychotherapy & Immigration Evaluations)
          ---------------------------------------------------------------------- -->
     <section class="section-wrapper services-section" id="services">
       <div class="container">
 
         <div class="section-header">
-          <span class="section-badge gold sage" data-i18n="services.badge">Specialized Therapy Services</span>
-          <h2 class="section-title" data-i18n="services.title">Our Therapeutic Pathways</h2>
+          <span class="section-badge gold sage" data-i18n="services.badge">Our Services</span>
+          <h2 class="section-title" data-i18n="services.title">Therapy & Evaluation Services</h2>
           <p class="section-subtitle" data-i18n="services.subtitle">
-            100% confidential teletherapy from the comfort of your own space, accessible anywhere in North Carolina.
+            Confidential psychotherapy for individuals and couples, and psychological evaluations in support of immigration cases.
           </p>
         </div>
 
-        <!-- Split Pathways Comparison -->
+        <!-- Group 1: Psychotherapy -->
+        <div class="service-group" id="therapy-services">
+          <div class="service-group-header">
+            <h3 data-i18n="services.therapy_header">Psychotherapy</h3>
+            <p data-i18n="services.therapy_sub">100% confidential teletherapy from the comfort of your own space, accessible anywhere in North Carolina.</p>
+          </div>
+
         <div class="pathways-grid">
 
           <!-- Individual Therapy Card -->
           <article class="pathway-card featured">
             <span class="pathway-tag" data-i18n="services.ind_tag">Adults (18+)</span>
-            <h3 class="pathway-title" data-i18n="services.ind_title">Individual Therapy</h3>
+            <h4 class="pathway-title" data-i18n="services.ind_title">Individual Therapy</h4>
             <p class="pathway-audience" data-i18n="services.ind_audience">For adults seeking healing, self-discovery, and emotional grounding</p>
 
             <div class="pathway-focus-heading" data-i18n="services.focus_heading">Key Focus Areas:</div>
@@ -341,7 +347,7 @@
           <!-- Couples Therapy Card -->
           <article class="pathway-card">
             <span class="pathway-tag couples" data-i18n="services.cpl_tag">Partners & Couples</span>
-            <h3 class="pathway-title" data-i18n="services.cpl_title">Couples Therapy</h3>
+            <h4 class="pathway-title" data-i18n="services.cpl_title">Couples Therapy</h4>
             <p class="pathway-audience" data-i18n="services.cpl_audience">For partners desiring renewed intimacy, connection, and conflict resolution</p>
 
             <div class="pathway-focus-heading" data-i18n="services.focus_heading">Key Focus Areas:</div>
@@ -421,45 +427,88 @@
           </div>
         </div>
 
-        <!-- Legal Services: Immigration Mental Health Evaluations -->
-        <div class="legal-services-wrapper" id="legal-services">
-          <div class="modality-header">
-            <h4 data-i18n="services.legal_header">Legal Services</h4>
+        </div><!-- /therapy-services -->
+
+        <!-- Group 2: Immigration Evaluations -->
+        <div class="service-group legal-services-wrapper" id="legal-services">
+          <div class="service-group-header">
+            <h3 data-i18n="services.legal_header">Immigration Evaluations</h3>
+            <p data-i18n="services.legal_sub">Psychological evaluations prepared for immigration legal firms and their clients.</p>
           </div>
 
-          <article class="pathway-card featured legal-card">
-            <span class="pathway-tag" data-i18n="services.legal_tag">Immigration Evaluations</span>
-            <h3 class="pathway-title" data-i18n="services.legal_title">Immigration Mental Health Evaluations</h3>
-            <p class="pathway-audience" data-i18n="services.legal_audience">A thorough, compassionate clinical evaluation documenting the psychological impact of your circumstances, in support of your immigration case. Available to clients located in North Carolina.</p>
+          <div class="pathways-grid legal-grid">
+          <article class="pathway-card">
+            <span class="pathway-tag" data-i18n="services.asy_tag">I-589</span>
+            <h4 class="pathway-title" data-i18n="services.asy_title">Asylum Evaluations</h4>
+            <p class="pathway-audience" data-i18n="services.asy_audience">For individuals seeking protection from persecution in their home country</p>
 
-            <div class="pathway-focus-heading" data-i18n="services.legal_focus_heading">Evaluations in Support Of:</div>
-            <ul class="focus-list legal-focus-list">
+            <div class="pathway-focus-heading" data-i18n="services.legal_focus_heading">Evaluation Focus:</div>
+            <ul class="focus-list">
               <li class="focus-item">
-                <svg class="focus-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <polyline points="20 6 9 17 4 12"/>
-                </svg>
-                <span data-i18n="services.legal_f1">Extreme Hardship Waivers (I-601, I-601A)</span>
+                <svg class="focus-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <span data-i18n="services.asy_f1">Psychological impact of past persecution or trauma</span>
               </li>
               <li class="focus-item">
-                <svg class="focus-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <polyline points="20 6 9 17 4 12"/>
-                </svg>
-                <span data-i18n="services.legal_f2">Asylum (I-589)</span>
+                <svg class="focus-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <span data-i18n="services.asy_f2">Clinical findings that support the claim</span>
               </li>
               <li class="focus-item">
-                <svg class="focus-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <polyline points="20 6 9 17 4 12"/>
-                </svg>
-                <span data-i18n="services.legal_f3">VAWA</span>
-              </li>
-              <li class="focus-item">
-                <svg class="focus-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <polyline points="20 6 9 17 4 12"/>
-                </svg>
-                <span data-i18n="services.legal_f4">U &amp; T Visas</span>
+                <svg class="focus-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <span data-i18n="services.asy_f3">Clear, court-ready written report</span>
               </li>
             </ul>
+          </article>
 
+          <article class="pathway-card">
+            <span class="pathway-tag" data-i18n="services.vawa_tag">VAWA · U · T</span>
+            <h4 class="pathway-title" data-i18n="services.vawa_title">VAWA, U &amp; T Visa Evaluations</h4>
+            <p class="pathway-audience" data-i18n="services.vawa_audience">For survivors of abuse, violent crime, or human trafficking</p>
+
+            <div class="pathway-focus-heading" data-i18n="services.legal_focus_heading">Evaluation Focus:</div>
+            <ul class="focus-list">
+              <li class="focus-item">
+                <svg class="focus-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <span data-i18n="services.vawa_f1">Documenting the effects of abuse or victimization</span>
+              </li>
+              <li class="focus-item">
+                <svg class="focus-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <span data-i18n="services.vawa_f2">Trauma-informed, sensitive interview</span>
+              </li>
+              <li class="focus-item">
+                <svg class="focus-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <span data-i18n="services.vawa_f3">Clear, court-ready written report</span>
+              </li>
+            </ul>
+          </article>
+
+          <article class="pathway-card">
+            <span class="pathway-tag" data-i18n="services.hw_tag">I-601 · I-601A</span>
+            <h4 class="pathway-title" data-i18n="services.hw_title">Extreme Hardship Waivers</h4>
+            <p class="pathway-audience" data-i18n="services.hw_audience">For families facing separation due to inadmissibility</p>
+
+            <div class="pathway-focus-heading" data-i18n="services.legal_focus_heading">Evaluation Focus:</div>
+            <ul class="focus-list">
+              <li class="focus-item">
+                <svg class="focus-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <span data-i18n="services.hw_f1">Hardship to qualifying family members</span>
+              </li>
+              <li class="focus-item">
+                <svg class="focus-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <span data-i18n="services.hw_f2">Mental and emotional health impact</span>
+              </li>
+              <li class="focus-item">
+                <svg class="focus-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <span data-i18n="services.hw_f3">Clear, court-ready written report</span>
+              </li>
+            </ul>
+          </article>
+          </div>
+
+          <!-- Shared evaluation details -->
+          <div class="modality-section-wrapper legal-details">
+            <div class="modality-header">
+              <h4 data-i18n="services.legal_details_title">Every Evaluation Includes</h4>
+            </div>
             <div class="legal-facts">
               <div class="legal-fact">
                 <span class="legal-fact-value" data-i18n="services.legal_fee_value">$1,500</span>
@@ -470,15 +519,14 @@
                 <span class="legal-fact-label" data-i18n="services.legal_length_label">Interview process</span>
               </div>
               <div class="legal-fact">
-                <span class="legal-fact-value" data-i18n="services.legal_format_value">In Person or Remote</span>
-                <span class="legal-fact-label" data-i18n="services.legal_format_label">In person in Charlotte, NC, or remotely</span>
+                <span class="legal-fact-value" data-i18n="services.legal_format_value">In Person or Online</span>
+                <span class="legal-fact-label" data-i18n="services.legal_format_label">In person in Charlotte, NC, or online</span>
               </div>
             </div>
-
-            <div class="pathway-card-footer">
-              <a href="tel://+19805773585" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="width: 100%;"><span data-i18n="services.legal_cta">Call to Ask About an Evaluation</span> <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+            <div class="legal-cta">
+              <a href="tel://+19805773585" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><span data-i18n="services.legal_cta">Call to Ask About an Evaluation</span> <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
             </div>
-          </article>
+          </div>
         </div>
 
       </div>

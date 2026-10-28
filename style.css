@@ -1665,28 +1665,71 @@ p:last-child {
   }
 }
 
-/* Legal Services: Immigration Evaluations */
-.legal-services-wrapper {
-  margin-top: 48px;
+/* Services: grouped layout (Psychotherapy + Immigration Evaluations) */
+.service-group + .service-group {
+  margin-top: 72px;
 }
 
-.legal-card {
-  max-width: 880px;
-  margin: 0 auto;
+.service-group-header {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 32px auto;
 }
 
-.legal-focus-list {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 12px 32px;
-  flex-grow: 0;
+.service-group-header h3 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 1.6rem;
+  color: var(--color-gold-800);
+  margin-bottom: 8px;
+}
+
+.service-group-header h3::before,
+.service-group-header h3::after {
+  content: "";
+  flex: 1;
+  height: 1.5px;
+  background: linear-gradient(90deg, transparent, var(--color-gold-300));
+}
+
+.service-group-header h3::after {
+  transform: scaleX(-1);
+}
+
+.service-group-header p {
+  font-size: 1rem;
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+/* Immigration evaluation cards */
+.legal-grid {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.legal-grid .pathway-card {
+  padding: 36px 28px;
+}
+
+.legal-grid .pathway-title {
+  font-size: 1.5rem;
+}
+
+.legal-grid .focus-list {
+  margin-bottom: 0;
+}
+
+.legal-details {
+  padding: 36px;
 }
 
 .legal-facts {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
-  margin-bottom: 32px;
+  margin-bottom: 28px;
 }
 
 .legal-fact {
@@ -1694,10 +1737,11 @@ p:last-child {
   flex-direction: column;
   gap: 4px;
   text-align: center;
-  background-color: var(--color-gold-50);
+  background-color: #FFFFFF;
   border: 1.5px solid var(--color-gold-200);
   border-radius: var(--radius-md);
   padding: 18px 16px;
+  box-shadow: 0 4px 12px rgba(120, 38, 55, 0.04);
 }
 
 .legal-fact-value {
@@ -1713,10 +1757,43 @@ p:last-child {
   line-height: 1.4;
 }
 
+.legal-cta {
+  display: flex;
+  justify-content: center;
+}
+
+/* Tablet: two columns, last evaluation card spans the row */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .legal-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .legal-grid .pathway-card:last-child {
+    grid-column: 1 / -1;
+  }
+}
+
 @media (max-width: 768px) {
-  .legal-focus-list,
+  .service-group + .service-group {
+    margin-top: 56px;
+  }
+
+  .service-group-header h3 {
+    font-size: 1.35rem;
+    gap: 12px;
+  }
+
+  .legal-grid,
   .legal-facts {
     grid-template-columns: 1fr;
+  }
+
+  .legal-details {
+    padding: 28px 20px;
+  }
+
+  .legal-cta .btn {
+    width: 100%;
   }
 
   :root {
