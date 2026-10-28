@@ -49,7 +49,16 @@
       <!-- Navigation Menu -->
       <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
         <a href="index.html" class="nav-link" data-i18n="about_page.nav_home">Home</a>
-        <a href="approach.html" class="nav-link" data-i18n="nav.approach">Approach</a>
+        <div class="nav-dropdown">
+          <button type="button" class="nav-link nav-dropdown-toggle active" id="about-dropdown-toggle" aria-expanded="false" aria-haspopup="true" aria-controls="about-dropdown-menu">
+            <span data-i18n="nav.about">About</span>
+            <svg class="nav-dropdown-chevron" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <ul class="nav-dropdown-menu" id="about-dropdown-menu">
+            <li><a href="aboutme.html" class="nav-dropdown-link" data-i18n="nav.meet_therapist" aria-current="page">Meet Your Therapist</a></li>
+            <li><a href="approach.html" class="nav-dropdown-link" data-i18n="nav.approach">Approach</a></li>
+          </ul>
+        </div>
         <a href="index.html#services" class="nav-link" data-i18n="nav.services">Services</a>
         <a href="index.html#rates" class="nav-link" data-i18n="nav.rates">Rates &amp; Insurance</a>
 

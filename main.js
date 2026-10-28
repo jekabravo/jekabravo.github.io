@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
       nav: {
         about: "About",
         approach: "Approach",
+        meet_therapist: "Meet Your Therapist",
         services: "Services",
         rates: "Rates & Insurance",
         book: "Book Consultation"
@@ -206,6 +207,7 @@ document.addEventListener('DOMContentLoaded', () => {
       nav: {
         about: "Sobre Mí",
         approach: "Enfoque",
+        meet_therapist: "Conoce a Tu Terapeuta",
         services: "Servicios",
         rates: "Tarifas y Seguro",
         book: "Reservar Consulta"
@@ -520,7 +522,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Close menu when clicking navigation link
-    navMenu.querySelectorAll('.nav-link, .btn').forEach(link => {
+    navMenu.querySelectorAll('.nav-link:not(.nav-dropdown-toggle), .nav-dropdown-link, .btn').forEach(link => {
       link.addEventListener('click', () => {
         if (navMenu.classList.contains('open')) {
           navMenu.classList.remove('open');
@@ -540,6 +542,34 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // --------------------------------------------------------------------------
+  // 3b. About Dropdown (hover/focus on desktop, tap/click everywhere)
+  // --------------------------------------------------------------------------
+  const dropdown = document.querySelector('.nav-dropdown');
+  const dropdownToggle = document.querySelector('.nav-dropdown-toggle');
+
+  if (dropdown && dropdownToggle) {
+    const setDropdown = (open) => {
+      dropdown.classList.toggle('open', open);
+      dropdownToggle.setAttribute('aria-expanded', String(open));
+    };
+
+    dropdownToggle.addEventListener('click', () => {
+      setDropdown(!dropdown.classList.contains('open'));
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!dropdown.contains(e.target)) setDropdown(false);
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && dropdown.classList.contains('open')) {
+        setDropdown(false);
+        dropdownToggle.focus();
+      }
+    });
+  }
+
+  // --------------------------------------------------------------------------
   // 4. Header Scroll Shadow & Scrollspy Active Navigation
   // --------------------------------------------------------------------------
   const siteHeader = document.querySelector('.site-header');
@@ -554,7 +584,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // IntersectionObserver for active navigation highlight
   const sections = document.querySelectorAll('section[id]');
-  const navLinks = document.querySelectorAll('.nav-link[href^="#"]');
+  const navLinks = document.querySelectorAll('.nav-link[href^="#"], .nav-dropdown-toggle[data-section]');
 
   if ('IntersectionObserver' in window && sections.length > 0) {
     const observerOptions = {
@@ -568,7 +598,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (entry.isIntersecting) {
           const activeId = entry.target.getAttribute('id');
           navLinks.forEach(link => {
-            if (link.getAttribute('href') === `#${activeId}`) {
+            if ((link.getAttribute('href') || `#${link.dataset.section}`) === `#${activeId}`) {
               link.classList.add('active');
             } else {
               link.classList.remove('active');
