@@ -111,6 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
         cta_sub: "Schedule a complimentary 15-minute consultation to see how we can work together.",
         cta_btn: "Book a Free Consultation",
         cta_services_btn: "Explore Therapy Services",
+        approach_btn: "Explore My Therapeutic Approach",
         nav_home: "Home"
       },
       services: {
@@ -300,6 +301,7 @@ document.addEventListener('DOMContentLoaded', () => {
         cta_sub: "Programa una consulta gratuita de 15 minutos para ver cómo podemos trabajar juntos.",
         cta_btn: "Marque Para Consulta Gratuita",
         cta_services_btn: "Explorar Servicios de Terapia",
+        approach_btn: "Conozca Mi Enfoque Terapéutico",
         nav_home: "Inicio"
       },
       services: {
