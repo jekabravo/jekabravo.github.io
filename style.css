@@ -1981,7 +1981,7 @@ p:last-child {
    Dedicated "About Me" Page Styles (aboutme.html)
    ========================================================================== */
 .about-page-main {
-  padding-top: calc(var(--header-height) + 24px);
+  padding-top: var(--header-height);
   padding-bottom: var(--space-4xl);
 }
 
