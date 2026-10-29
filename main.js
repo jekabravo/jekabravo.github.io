@@ -17,8 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       nav: {
         about: "About",
-        approach: "Approach",
-        meet_therapist: "Meet Your Therapist",
+        approach: "The Approach",
+        meet_therapist: "Your Therapist",
         services: "Services",
         rates: "Rates & Insurance",
         book: "Book Consultation"
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         title_start: "Healing from Past Experiences and Reclaiming your Life",
         title_accent: "Begins Here.",
         subheadline: "Discomfort yields growth. Growth Requires support. You do not have to do it alone. Together, we can create a path forward and begin your self-discovery journey.<br />Psychotherapy is about building a deeper relationship with self and all parts. Rooted in Safety. Empowered for Transformation.<br />Life transitions, grief, and generational trauma can leave you feeling disconnected.<br />Through trauma-informed, bilingual teletherapy, Jessica Bravo, LCSW, helps you find your footing, process past struggles, and step into your personal rebirth.",
-        cta_primary: "Call to Schedule Free 15-Min Consultation",
+        cta_primary: "Call for Free Consultation",
         cta_secondary: "Explore Therapy Services",
         trust_confidential: "100% Confidential Telehealth",
         trust_license: "NC License #C017999",
@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', () => {
         badge: "Take the Next Step",
         headline: "Your Story Isn’t Over. Take the First Step Today.",
         subtext: "Booking a free 15-minute phone consultation gives us an opportunity to connect, discuss your goals, and ensure we are the right therapeutic match.",
-        primary_btn: "Call to Book a Free Consultation",
+        primary_btn: "Call for a Free Consultation",
         email_prefix: "Or email"
       },
       footer: {
@@ -205,9 +205,9 @@ document.addEventListener('DOMContentLoaded', () => {
         description: "Teleterapia bilingüe informada en trauma en toda Carolina del Norte con Jessica Bravo, LCSW (Licencia #C017999). Especializada en terapia individual, de pareja, IFS y sanación somática."
       },
       nav: {
-        about: "Sobre Mí",
-        approach: "Enfoque",
-        meet_therapist: "Conoce a Tu Terapeuta",
+        about: "Acerca de",
+        approach: "Método",
+        meet_therapist: "Tu Terapeuta",
         services: "Servicios",
         rates: "Tarifas y Seguro",
         book: "Reservar Consulta"
@@ -217,7 +217,7 @@ document.addEventListener('DOMContentLoaded', () => {
         title_start: "Sanar de experiencias pasadas y comenzar a reclamar tu vida",
         title_accent: "comienza aquí.",
         subheadline: "El malestar produce crecimiento. El crecimiento requiere apoyo. No tienes que hacerlo solo. Juntos, podemos crear un camino hacia adelante y comenzar tu viaje de autodescubrimiento.<br/>La psicoterapia se trata de construir una relación más profunda contigo mismo y con todas tus partes. Enraizada en la seguridad. Empoderada para la transformación.<br />Las transiciones de vida, el duelo y el trauma generacional pueden dejarte sintiendo desconexión. A través de teleterapia bilingüe e informada sobre el trauma, Jessica Bravo, LCSW, te ayuda a encontrar tu estabilidad, procesar las luchas del pasado y dar paso a tu renacimiento personal.",
-        cta_primary: "Marque para Programar Consulta Gratuita de 15 Min",
+        cta_primary: "Marque Para Consulta Gratuita",
         cta_secondary: "Explorar Servicios de Terapia",
         trust_confidential: "Teleterapia 100% Confidencial",
         trust_license: "Licencia de NC #C017999",
@@ -296,9 +296,9 @@ document.addEventListener('DOMContentLoaded', () => {
         pillar2_desc: "Reconocer las barreras del entorno mientras se recupera el poder de reescribir creencias limitantes.",
         pillar3_title: "Valentía en la Vulnerabilidad",
         pillar3_desc: "Aprender a sostener el dolor y las emociones como el verdadero pilar para sanar profundamente.",
-        cta_heading: "¿Listo/a para Reclamar Tu Historia?",
-        cta_sub: "Programa una consulta gratuita de 15 minutos para ver cómo podemos trabajar juntos/as.",
-        cta_btn: "Programar Consulta Gratuita",
+        cta_heading: "¿Listo para Reclamar Tu Historia?",
+        cta_sub: "Programa una consulta gratuita de 15 minutos para ver cómo podemos trabajar juntos.",
+        cta_btn: "Marque Para Consulta Gratuita",
         cta_services_btn: "Explorar Servicios de Terapia",
         nav_home: "Inicio"
       },
